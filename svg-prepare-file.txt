@@ -1,17 +1,42 @@
 ----start----
+<svg xmlns="http://www.w3.org/2000/svg" width="1921" height="1221.016" viewBox="0 0 1921 1221.016"><defs><style>.a{fill:#bd300d;stroke:#707070;}</style></defs><path class="a" d="M.1,1080l573.628,140,556.859-140,418.472,80,371.041-80V3.239L.1,0Z" transform="translate(0.404 0.501)"/></svg>
 
-  <svg id="morph" width="100%" height="100%" viewBox="0 0 1920 1080" preserveAspectRatio="none" >      
-    <path id="morphFull" class="a" d="M.1,1080h1920L1919.978-.18.1,0Z" transform="translate(0.404 0.68)"/>
+
+<svg 
+	 viewBox="0 0 1920 1080" preserveAspectRation="none">
+<style type="text/css">
+	.st0{fill:#FF1D25;}
+</style>
+<polygon class="st0" points="1920,1080 1474.6,1080 465,1080 0,1080 0,0 1920,0 "/>
 </svg>
-
 
 ----middle----
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="990.029" viewBox="0 0 1920 990.029"><defs><style>.a{fill:#bd300d;}</style></defs><path class="a" d="M0,990.029,571.51,396.622l546.526-24.984,256.824,618.391L1920,903.176V3.234L.1,0Z"/></svg>
-
-
-d="M0,990.029,571.51,396.622l546.526-24.984,256.824,618.391L1920,903.176V3.234L.1,0Z"
-
-
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1921" height="1082.25" viewBox="0 0 1921 1082.25"><defs><style>.a{fill:#bd300d;stroke:#707070;}</style></defs><path class="a" d="M.1,1080,577.784,152l552.8,928L1536.61,603,1920.1,1080V3.239L.1,0Z" transform="translate(0.404 0.501)"/></svg>
 ----end---
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1920.615" height="141.017" viewBox="0 0 1920.615 141.017"><defs><style>.a{fill:#bd300d;stroke:#707070;}</style></defs><path class="a" d="M.1,3.239l580-40,541.851,40,376.108,100,422.038-100h0L.1,0Z" transform="translate(0.404 37.262)"/></svg>
+
+
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1921px"
+	 height="1081px" viewBox="0 0 1921 1081" style="enable-background:new 0 0 1921 1081;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FF1D25;stroke-miterlimit:10;}
+</style>
+<defs>
+</defs>
+<path class="st0" d="M1920.5,1080.5h-445.4c0,0-337.1,0-505.6,0c-168,0-504,0-504,0s-310,0-465,0V0.5h1920V1080.5z"/>
+</svg>
+
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1920px"
+	 height="2px" viewBox="0 0 1920 2" style="enable-background:new 0 0 1920 2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF1D25;}
+</style>
+<defs>
+</defs>
+<path class="st0" d="M1920,0h-445.4c0,0-337.1,0-505.6,0C801,0,465,0,465,0S155,0,0,0v2h1920V0z"/>
+</svg>
