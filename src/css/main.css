@@ -1,0 +1,21 @@
+body {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+#morph {
+  fill: #f00;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+#morph h1 {
+  font-size: 1.4em;
+  margin: 10px 0;
+  cursor: pointer;
+}

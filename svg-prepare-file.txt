@@ -1,0 +1,17 @@
+----start----
+
+  <svg id="morph" width="100%" height="100%" viewBox="0 0 1920 1080" preserveAspectRatio="none" >      
+    <path id="morphFull" class="a" d="M.1,1080h1920L1919.978-.18.1,0Z" transform="translate(0.404 0.68)"/>
+</svg>
+
+
+----middle----
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="990.029" viewBox="0 0 1920 990.029"><defs><style>.a{fill:#bd300d;}</style></defs><path class="a" d="M0,990.029,571.51,396.622l546.526-24.984,256.824,618.391L1920,903.176V3.234L.1,0Z"/></svg>
+
+
+d="M0,990.029,571.51,396.622l546.526-24.984,256.824,618.391L1920,903.176V3.234L.1,0Z"
+
+
+
+----end---
