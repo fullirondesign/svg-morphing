@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import "./css/main.css";
 import anime from "animejs";
+import BgSVGanime from "./components/animations/background-svg-anime";
 
 class App extends Component {
   svg = (
@@ -44,10 +45,7 @@ class App extends Component {
   render() {
     
     return (<div className="App">
-      {this.svg}
-      <div className="butt" onClick={(e)=>this.handleClick(e)}>
-        go
-      </div>
+        <BgSVGanime /></BgSVGanime>
     </div>);
   }
 }
