@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     
     return (<div className="App">
-        <BgSVGanime /></BgSVGanime>
+        <BgSVGanime />
     </div>);
   }
 }
