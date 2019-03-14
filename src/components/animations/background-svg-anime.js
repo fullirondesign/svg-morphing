@@ -38,7 +38,7 @@ const svg = (animationId) => {
 // morphing on Click function ----
 const handleClick = (animationId) => {   
   console.log (`click on ${animationId}`)
-  console.log (svg(animationId))
+  console.log ("svg: ",svg(animationId))
   anime({
       targets: `.${animationId}`,
       d: [
@@ -51,14 +51,14 @@ const handleClick = (animationId) => {
       loop: false,
       autoplay: false
   })
-  .play();
+  .play()
+  console.log ("anime result", anime());
 }
 
 // hook ----
-const BgSVGanime = ({ children, props, animationId = {} }) => (
+const BgSVGanime = ({ children, animationId = {} }) => (
     <div className="animation">
-        {props}
-        {/* {(animationId)=>svg(animationId)} */}
+        {svg(animationId)}
         <div className="butt" onClick={handleClick(animationId)}>
             go
         </div>
