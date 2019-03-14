@@ -59,7 +59,7 @@ const handleClick = (animationId) => {
 const BgSVGanime = ({ children, animationId = {} }) => (
     <div className="animation">
         {svg(animationId)}
-        <div className="butt" onClick={handleClick(animationId)}>
+        <div className="butt" onClick={() => handleClick(animationId)}>
             go
         </div>
     </div>
