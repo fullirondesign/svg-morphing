@@ -1,4 +1,4 @@
-// animation for SVG background morphing
+// HOOK animation for SVG background morphing
 
 import React from "react";
 import anime from "animejs"; // animation library
@@ -21,21 +21,7 @@ const svg = (animationId) => {
 };
 
 
-
-
-//   <svg
-//     id={animationId}
-//     width="auto"
-//     height="auto"
-//     viewBox="0 0 1920 1080"
-//     preserveAspectRatio="none"
-//     // x="0px" y="0px"
-//   >
-//     <path class={animationId} d="M 1920 1080 L 1474.6 1080 S 1137.53 1080 969 1080 c -168 000 -2000 220 -304 -471 S 155 1080 0 1080 V 0 H 1920 Z"/>
-//   </svg>
-// );
-
-// morphing on Click function ----
+// morphing onClick function ----
 const handleClick = (animationId) => {   
   console.log (`click on ${animationId}`)
   console.log ("svg: ",svg(animationId))
@@ -63,6 +49,6 @@ const BgSVGanime = ({ children, animationId = {} }) => (
             go
         </div>
     </div>
-);
+)
 
 export default BgSVGanime
