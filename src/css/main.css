@@ -9,7 +9,6 @@ body {
   fill: #f00;
   width: 100%;
   height: 100%;
-  top: 600;
   left: 0;
   position: absolute;
   pointer-events: none;
@@ -20,6 +19,12 @@ body {
   font-size: 1.4em;
   margin: 10px 0;
   cursor: pointer;
+}
+#morph {
+  top: 0%;
+}
+#lis {
+  top: 100%;
 }
 .butt {
   display: flex;
