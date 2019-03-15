@@ -59,6 +59,11 @@ class App extends Component {
                       <BgSVGanime animationId={"morph"}/>
                     </div>
               </div>
+              <div className="animationBox">
+                    <div className="animation">
+                      <BgSVGanime animationId={"lis"}/>
+                    </div>
+              </div>
         </div> 
       </div>
     );

@@ -1,6 +1,6 @@
 // HOOK animation for SVG background morphing
 
-import React from "react";
+import React, {useState} from "react";
 import anime from "animejs"; // animation library
 
 //  SVG itself ----
