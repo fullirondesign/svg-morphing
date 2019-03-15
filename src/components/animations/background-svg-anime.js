@@ -45,7 +45,7 @@ const BgSVGanime = ({ children, animationId }) => {
     } else
     if (animationStage === "end") {
       setAnimationStage("start");
-      console.log(`animation error ${animationId}`);
+      console.log(`animation stage: ${animationStage}, animation id: ${animationId}`);
     } else {
       console.log(`animation error ${animationId}`);
     }
