@@ -52,8 +52,8 @@ const BgSVGanime = ({ children, animationId }) => {
     console.log("animationFrame1 :", animationFrame1);
     console.log("animationFrame2 :", animationFrame2);
 
-    // animation control
-    // -- stage-depended frames config
+    // Animation control ---------------------
+    // stage-depended frames config----
     let animationCurrentFrame1, animationCurrentFrame2; // for current -manipulated- timeline
     if (animationStage === "start") {
       setAnimationStage("end");
@@ -95,11 +95,12 @@ const BgSVGanime = ({ children, animationId }) => {
 
   return (
     <div className="animation">
-      {" "}
-      {svg(animationId)} {animationStage}{" "}
+      {svg(animationId)}
+      {animationStage}
+
       <div className="butt" onClick={() => handleClick(animationId)}>
-        go{" "}
-      </div>{" "}
+        go
+      </div>
     </div>
   );
 };
