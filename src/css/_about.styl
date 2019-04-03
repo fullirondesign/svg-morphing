@@ -1,0 +1,53 @@
+.about {
+    background: red;
+    height: 100vh;
+    width: 100%;
+    transition: 2s easy-in-out;
+    // padding: 20%
+    display: block;
+
+    #bird {
+        height: 50%;
+        max-width: 60%;
+        margin: 20%;
+        position: relative;
+        transition: 2s easy-in-out;
+        fill: blue;
+
+        #wing {
+            transition: 2s easy-in-out;
+            fill: orange;
+        }
+
+        &:hover {
+            transition: 2s easy-in-out;
+            fill: green;
+            transition: 2s easy-in-out;
+
+            #wing {
+                transition: 2s easy-in-out;
+                fill: initial;
+                fill: green;
+                transform-origin: 50% 50%;
+                transform: rotate(4deg);
+                transition-duration: fill 2s;
+            }
+        }
+
+        .anime {
+            transition: 2s easy-in-out;
+            fill: green;
+            transition: 2s easy-in-out;
+
+            #wing {
+                transition: 2s easy-in-out;
+                fill: initial;
+                fill: green;
+                transform-origin: 50% 50%;
+                transform: rotate(4deg);
+                transition-duration: fill 2s;
+            }
+        }
+
+    }
+}
