@@ -30,12 +30,12 @@
   transform: rotate(4deg);
   transition-duration: fill 2s;
 }
-.about #bird .anime {
+.about.anime {
   transition: 2s easy-in-out;
   fill: #008000;
   transition: 2s easy-in-out;
 }
-.about #bird .anime #wing {
+.about.anime #wing {
   transition: 2s easy-in-out;
   fill: initial;
   fill: #008000;

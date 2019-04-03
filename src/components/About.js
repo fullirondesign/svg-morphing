@@ -10,10 +10,10 @@ export default function About() {
         setInterval(() => { 
             const el = document.getElementsByClassName('about')[0] || document.getElementsByClassName('anime')[0]
             console.log("el1", el)
-            if(el.className === 'about'){return el.className='anime'}
-            if(el.className === 'anime'){return el.className='about'}
+            if(el.className === 'about'){return el.className='about anime'}
+            if(el.className === 'about anime'){return el.className='about'}
             console.log("el2",el)
-        }, 1000);
+        }, 200);
     } );
 
     return (
